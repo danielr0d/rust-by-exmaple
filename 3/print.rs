@@ -8,4 +8,10 @@ fn main() {
              object="the lazy dog",
              subject="the quick brown fox",
              verb="jumps over");
+
+    println!("Base 10:                   {}", 69420);
+    println!("Base 2 (binary):           {:b}", 69420);
+    println!("Base 8 (octal):            {:o}", 69420);
+    println!("Baase 16 (hexadecimal):    {:x}", 69420);
+
 }
