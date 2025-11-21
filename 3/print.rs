@@ -20,7 +20,7 @@ fn main() {
 
     println!("{number:0<5}", number=1);
 
- !("{number:0>width$}", number=1, width=5);
+    println!("{number:0>width$}", number=1, width=5);
 
     println!("My name is {0}, {1} {0}", "Bond", "James");
     
