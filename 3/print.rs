@@ -6,7 +6,7 @@ fn main() {
 
     println!("{subject} {verb} {object}",
              object="the lazy dog",
-             subject="the quick brown fox",
+             subject="the meu deus do quick brown fox",
              verb="jumps over");
 
     println!("Base 10:                   {}",   69420);
@@ -20,7 +20,7 @@ fn main() {
 
     println!("{number:0<5}", number=1);
 
-    println!("{number:0>width$}", number=1, width=5);
+ !("{number:0>width$}", number=1, width=5);
 
     println!("My name is {0}, {1} {0}", "Bond", "James");
     
