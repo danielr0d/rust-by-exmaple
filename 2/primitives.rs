@@ -6,4 +6,18 @@ fn main() {
 
     let default_float = 3.0;
     let default_integer = 7;
+
+    let mut inferred_type = 12;
+    inferred_type = 4294967296i64;
+
+    let mut mutable = 12;
+    mutable = 21;
+
+    mutable = true;
+
+    let mutable = true;
+
+    let my_array: [i32; 5] = [1, 2, 3, 4, 5];
+
+    let my_tuple = (5u32, 1u8, true, -5.04f32);
 }
