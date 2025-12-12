@@ -20,4 +20,19 @@ fn main() {
     //let fucking_long_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14);
     //println!("This shit is too long: {:?}", fucking_long_tuple);
     
+    let pair = (1, true);
+    println!("Pair is {:?}", pair);
+
+    println!("The reverse pair is {:?}", reverse(pair));
+
+    println!("One element tuple: {:?}", (5u32,));
+    println!("Just an int: {:?}", (5u32));
+
+    let tuple = (1, "hello", 4.5, true);
+
+    let (a, b, c, d) = tuple;
+    println!("{:?}, {:?}, {:?}, {:?}", a, b, c, d);
+
+    let matrix = Matrix(1.1., 1.2, 2.1, 2.2);
+    println!("{:?}", matrix);
 }
