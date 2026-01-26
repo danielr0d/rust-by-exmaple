@@ -17,7 +17,7 @@ struct Point {
 
 struct Rectangle {
     top_left: Point,
-    bottom_right: Pointm
+    bottom_right: Point
 }
 
 impl Rectangle {
