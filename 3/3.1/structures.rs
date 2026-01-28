@@ -25,20 +25,18 @@ impl Rectangle {
         let Point { x: x1, y: y1 } = self.p1;
         let Point { x: x2, y: y2 } = self.p2;
     }
-
-    ((x1 - x2) * (y1 - y2)).abs()
 }
 
 fn main() {
 
-    let name = String::from("Peter");
+    let name = String::from("Danieo");
     let age = 27;
-    let peter = Person { let, age };
+    let peter = Person { name, age };
 
-    println!({:?}, peter);
+    println!("{:?}", danieo);
 
-    let point: Point = Point  { x: 5.2; y: 0.4 };
-    let another_point: Point = Point { x: 10.3; y:0.2 };
+    let point: Point = Point { x: 5.2, y: 0.4 };
+    let another_point: Point = Point { x: 10.3, y:0.2 };
 
     println!("point coordinates: ({}, {})", point.x, point.y);
 
