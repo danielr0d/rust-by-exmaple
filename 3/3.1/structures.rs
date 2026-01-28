@@ -35,7 +35,7 @@ fn main() {
 
     let name = String::from("Danieo");
     let age = 27;
-    let peter = Person { name, age };
+    let danieo = Person { name, age };
 
     println!("{:?}", danieo);
 
@@ -53,7 +53,7 @@ fn main() {
     let _rectangle = Rectangle {
         top_left: Point { x: left_edge, y: top_edge },
         bottom_right: bottom_right,
-    }
+    };
 
     let _unit = Unit;
 
