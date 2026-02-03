@@ -8,5 +8,9 @@ enum WebEvent {
 
 fn inspect (event: WebEvent) {
     match event {
+        WebEvent::PageLoad => println!("page loaded"),
+        WebEvent::PageUnload => println!("page unloaded"),
+        WebEvent::KeyPress(c) => println!("pressed '{}'.", c),
+        WebEvent::Paste(s) => println!("pasted \"{}"\.", s),
     }
 }
