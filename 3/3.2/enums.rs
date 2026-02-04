@@ -11,6 +11,6 @@ fn inspect (event: WebEvent) {
         WebEvent::PageLoad => println!("page loaded"),
         WebEvent::PageUnload => println!("page unloaded"),
         WebEvent::KeyPress(c) => println!("pressed '{}'.", c),
-        WebEvent::Paste(s) => println!("pasted \"{}"\.", s),
+        WebEvent::Paste(s) => println!("pasted \"{}\".", s),
     }
 }
