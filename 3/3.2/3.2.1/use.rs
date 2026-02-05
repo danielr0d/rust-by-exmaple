@@ -7,25 +7,25 @@ enum Stage {
 
 enum Role {
     Student,
-    Teacher
+    Teacher,
 }
 
 fn main() {
 
     use Stage::{Beginner, Advanced};
-    use Role::*
+    use Role::*;
 
     let stage = Beginner;
     let role = Student;
 
     match stage {
-        Beginner => println!("Beginners are starting their learning nightmare!");
-        Advanced => println!("Advanced learners are masterging their fears...");
+        Beginner => println!("Beginners are starting their learning nightmare!"),
+        Advanced => println!("Advanced learners are masterging their fears..."),
     }
 
     match role {
-        Student => println!("Students are acquiring knowledge!");
-        Teacher => println!("Teachers are spreading knowledge!");
+        Student => println!("Students are acquiring knowledge!"),
+        Teacher => println!("Teachers are spreading knowledge!"),
     }
 
 }
