@@ -41,5 +41,5 @@ fn main() {
     list = list.prepend(3);
 
     println!("linked list has length: {}", list.len());
-    println!("{}", list.stringify!());
+    println!("{}", list.stringify());
 }
