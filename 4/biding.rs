@@ -11,8 +11,6 @@ fn main() {
 
     let _unused_variable = 3u32;
 
-    let noisy_unused_variable = 2u32; 
-    // fix me! ^
-
-
+    let _noisy_unused_variable = 2u32; 
+    // fix me! ^ (supposed to be fixed now)
 }
