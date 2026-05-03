@@ -1,15 +1,13 @@
-let mut optional = Some(0);
+fn main() {
+    let mut optional = Some(0);
 
-loop {
-    match optional {
-        Some(i) => {
-            if i > 9 {
-                println!("greater than 9, quit!");
-                optional = None;
-            } else {
-                println!("`i` is `{:?}. try again.", i);
-            }
-        },
-        _ => { break ; }
+    while let Some(i) = optional {
+        if i > 9 {
+            println!("greater than 9, quit!");
+            optional = None;
+        } else {
+            println!("`i` is `{:?}`. try again.", i);
+            optional = Some(i + 1);
+        }
     }
 }
